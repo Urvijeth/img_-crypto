@@ -1,2 +1,6 @@
-# img_crypto
-A lightweight Python tool for image encryption and decryption using basic pixel-level manipulation techniques.
+ Simple Image Encryption Tool
+
+A lightweight Python application that encrypts and decrypts images using **pixel-level manipulation**.  
+This project is designed for learning cybersecurity concepts through simple cryptographic techniques such as **XOR operations**, **pixel swapping**, and **mathematical transformations**.
+
+---
