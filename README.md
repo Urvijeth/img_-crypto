@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶ Quick start (CLI)
+##  Quick start (CLI)
 
 Encrypt an image (example):
 
@@ -74,12 +74,6 @@ python -m img_crypto.main decrypt images/encrypted.jpg images/decrypted.jpg --ke
 2. For `xor` and `add`, each R/G/B value is transformed arithmetically.
 3. For `swap`, all pixels are shuffled using a deterministic pseudorandom permutation seeded by the key.
 4. Decryption reverses the transformation using the same key and mode.
-
----
-
-## README image preview
-
-The image at the top is a demo preview. To update it, replace `/images/sample.jpg` with your preferred screenshot and update this README accordingly.
 
 ---
 
