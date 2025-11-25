@@ -1,5 +1,5 @@
 from PIL import Image
-from src.operations import xor_operation, add_operation, swap_pixels, unswap_pixels
+from operations import xor_operation, add_operation, swap_pixels, unswap_pixels
 
 def encrypt_image(input_path, output_path, key, enc_type):
     """Encrypt the image based on selected type."""
